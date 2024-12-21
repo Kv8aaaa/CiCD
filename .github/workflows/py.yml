@@ -20,3 +20,7 @@ jobs:
 
       - name: Train model
         run: python src/train.py
+
+      - name: Train model
+        - scikit-learn
+    
